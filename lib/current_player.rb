@@ -12,7 +12,6 @@ def turn_count(board)
     end
   end
   puts "totasl turns is #{turn}"
->>>>>>> 80d813c0e156fe904fdd08d965f44ed8a1fc3ae2
 return turn
 end
 
@@ -36,4 +35,3 @@ end
 
 board = [" ", "O", " ", " ", "", " ", " ", " ", "X"]
 puts current_player(board)
->>>>>>> 80d813c0e156fe904fdd08d965f44ed8a1fc3ae2
