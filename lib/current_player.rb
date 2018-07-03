@@ -5,15 +5,11 @@ def turn_count(board)
       turn+=1
     end
   end
-  puts "totasl turns is #{turn}"
 return turn
 end
 
 def  current_player(board)
-  turn=turn_count(board)
-  puts "totasl turns is #{turn}"
-  turn%2==0 ? "X":"O"
-  
+  turn_count(board)%2==0 ? "X":"O"
 end
 
 board = [" ", "O", " ", " ", "", " ", " ", " ", "X"]
