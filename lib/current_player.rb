@@ -5,10 +5,6 @@ def turn_count(board)
       turn+=1
     end
   end
-    if (spot=="X" || spot=="O")
-      turn+=1
-    end
-  end
   puts "totasl turns is #{turn}"
 return turn
 end
